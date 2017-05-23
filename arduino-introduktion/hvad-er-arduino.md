@@ -4,11 +4,8 @@ Arduino er en en digitaludviklingsplatform. Det er et elektronikkort \(printkort
 
 Siden har kunstnere og virksomheder taget Arduino til sig, så det i dag er blevet de-facto standarden inden for elekroniknær softwareudvikling.
 
-<!-- TODO: IDE i ordliste! -->
+Til at lægge programkode ned i Arduinos processor, bruger man et program kaldet *Arduino IDE*. Programmet er gratis og virker på alle platforme (Windows, Mac & Linux). Vi bruger samme program til at ligge programkode ned i Mono.
 
-Til at lægge software ned i Arduino processor, bruger man et program kaldet *Arduino IDE*.[^1] Programmet er gratis og virker på alle platforme (Windows, Mac & Linux).
+![Screenshot af Arduino IDE](arduino-new-project.png)
 
-[^1] Her står IDE for *Integrated Developement Environment* 
-
-
-
+På billedet ses hvordan vinduet i *Arduino IDE* ser ud, når det kører på Mac.
