@@ -81,17 +81,27 @@ Trakfiklysprogram som hører til opgaven mangler "bare" at få indsat hvordan sk
 Det gøres ved at finde det sted i programmet som sætter tilstandsmakinen op:
 
 ```cpp
-// ****************************************************************
-//                           EDIT HERE
-//
-//        North       East        South       West        Time (ms)
-//
-newState( RED,        RED,        RED,        RED,        1000 );
-newState( RED+YELLOW, RED+YELLOW, RED+YELLOW, RED+YELLOW, 1000 );
-newState( GREEN,      GREEN,      GREEN,      GREEN,      1000 );
-newState( YELLOW,     YELLOW,     YELLOW,     YELLOW,     1000 );
-//
-// ****************************************************************
+#include <mono.h>
+#include "traffic-light.h"
+
+void setup() {
+  static TrafficLight trafficlight;
+  // ****************************************************************
+  //                           EDIT HERE
+  //
+  //                     North       East        South       West        Time (ms)
+  //
+  trafficlight.newState( RED,        RED,        RED,        RED,        1000 );
+  trafficlight.newState( RED+YELLOW, RED+YELLOW, RED+YELLOW, RED+YELLOW, 1000 );
+  trafficlight.newState( GREEN,      GREEN,      GREEN,      GREEN,      1000 );
+  trafficlight.newState( YELLOW,     YELLOW,     YELLOW,     YELLOW,     1000 );
+  //
+  // ****************************************************************
+  trafficlight.start();
+}
+
+void loop() {
+}
 ```
 
 Hvis gruppen er kommet frem til den tilstandsmaskine som er vist i del 4, så vil programmet komme til at se således ud.  Bemærk at tiden er i millisekunder:
@@ -100,16 +110,16 @@ Hvis gruppen er kommet frem til den tilstandsmaskine som er vist i del 4, så vi
 // ****************************************************************
 //                           EDIT HERE
 //
-//        North       East        South       West        Time (ms)
+//                     North       East        South       West        Time (ms)
 //
-newState( RED,        GREEN,      RED,        GREEN,      10000 );
-newState( RED,        YELLOW,     RED,        YELLOW,     1000  );
-newState( RED,        RED,        RED,        RED,        1000  );
-newState( RED+YELLOW, RED,        RED+YELLOW, RED,        1000  );
-newState( GREEN,      RED,        GREEN,      RED,        10000 );
-newState( YELLOW,     RED,        YELLOW,     RED,        1000  );
-newState( RED,        RED,        RED,        RED,        1000  );
-newState( RED,        RED+YELLOW, RED,        RED+YELLOW, 1000  );
+trafficlight.newState( RED,        GREEN,      RED,        GREEN,      10000 );
+trafficlight.newState( RED,        YELLOW,     RED,        YELLOW,     1000  );
+trafficlight.newState( RED,        RED,        RED,        RED,        1000  );
+trafficlight.newState( RED+YELLOW, RED,        RED+YELLOW, RED,        1000  );
+trafficlight.newState( GREEN,      RED,        GREEN,      RED,        10000 );
+trafficlight.newState( YELLOW,     RED,        YELLOW,     RED,        1000  );
+trafficlight.newState( RED,        RED,        RED,        RED,        1000  );
+trafficlight.newState( RED,        RED+YELLOW, RED,        RED+YELLOW, 1000  );
 //
 // ****************************************************************
 ```
