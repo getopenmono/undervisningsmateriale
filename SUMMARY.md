@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduktion](README.md)
 * [Introduktion til Arduino](arduino-introduktion/README.md)
     * [Hvad er Arduino](arduino-introduktion/hvad-er-arduino.md)
     * [Installation på Windows](arduino-introduktion/install-windows.md)
