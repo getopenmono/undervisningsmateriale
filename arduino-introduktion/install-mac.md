@@ -8,9 +8,14 @@ Første skridt til at installere *Arduino IDE* på macOS, er at donloade program
 
 Om du ønsker at donere penge til Arduino er dig frit for, det er på ingen måde påkrævet. Ønsker du bare at komme igang, så klik på *Just download* og download'en begynder. Filen der hentes er en ZIP fil, som alt efter hvilken browser du bruger automatisk bliver pakket ud.
 
-![MacOs dock med Arduino i Downloads](dock-download.png "macOS Dock hvor Arduino IDE er downloaded")
+![MacOS dock med Arduino i Downloads](dock-download.png "macOS Dock hvor Arduino IDE er downloaded")
 
 Ovenfor ses hvordan *Docken* ser ud hvis Arduino IDE blev udpakket automatisk. HVis du istedet ser et fil-ikon med en lynlås på, så skal to åbne denne fil for at pakke den ud. Herefter skulle du gerne se det blågrønne Arduino ikon.
 
 Sidste trin er at flytte programmet fra *Downloads* mappen og ind i mappen med programmer:
 
+<p><video src="arduino-install.mp4" autoplay loop style="width: 100%;" poster="dd-poster.png">
+<img src="dd-poster.png" />
+</video></p>
+
+Du kan nu åbne *Arduino IDE* og er klar til at forsætte med næste kapitel, hvor vi skal installere Monoudvidelsen.
