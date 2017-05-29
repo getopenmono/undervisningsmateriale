@@ -9,7 +9,7 @@
     * [Installation på Windows](arduino-introduktion/install-windows.md)
     * [Installation på Mac](arduino-introduktion/install-mac.md)
     * [Installering af Mono-udvidelsen](arduino-introduktion/install-mono-plugin.md)
-    * [Et programeksempel]()
+    * [Et programeksempel](arduino-introduktion/test-program.md)
 
 ## Opgaver
 
