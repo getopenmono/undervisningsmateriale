@@ -14,8 +14,6 @@ Ovenfor ses hvordan *Docken* ser ud hvis Arduino IDE blev udpakket automatisk. H
 
 Sidste trin er at flytte programmet fra *Downloads* mappen og ind i mappen med programmer:
 
-<p><video src="arduino-install.mp4" autoplay loop style="width: 100%;" poster="dd-poster.png">
-<img src="dd-poster.png" />
-</video></p>
+![Flyt Arduino-programmet til mappen Programmer](dd-poster.png)
 
 Du kan nu åbne *Arduino IDE* og er klar til at forsætte med næste kapitel, hvor vi skal installere Monoudvidelsen.
