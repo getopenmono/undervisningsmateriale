@@ -54,9 +54,13 @@ Et sådant program vil virke, men ikke være meget bevendt af man ikke kan se pr
 
 #### Tekst på skærmen
 
-For at vises tekst på Monos skærm skal vi bruge komponenter fra *Mono Framework*, som er Mono's software bibliotek. Her findes komponenten `TextLabelView` der er et ojekt til at tegne tekst på skærmen.
+For at vises tekst på Monos skærm skal vi bruge komponenter fra *Mono Framework*, som er Mono's software bibliotek. Her findes komponenten `TextLabelView` der er et objekt til at tegne tekst på skærmen.
 
-Nedenfor ses programmet, som du skal erstatte med med koden i dit Arduino projekt:
+Først skal vi huske at fortælle *Arduino IDE* at vi vil programmere en Mono. Derfor vælg menuen *Tools* og så *Boards: ...*. Nederst på listen findes *Mono*.
+
+![Vælg Mono som aktivt target](win-install/select-mono-board-win.png)
+
+Nu skal kan vi så skrive kode målrettet Mono. Nedenfor ses programmet, som du skal erstatte med med koden i dit Arduino-projekt:
 
 ```cpp
 #include <mono.h>
