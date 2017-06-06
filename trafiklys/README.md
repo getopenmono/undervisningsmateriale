@@ -82,7 +82,7 @@ Det gøres ved at finde det sted i programmet som sætter tilstandsmakinen op:
 
 ```cpp
 #include <mono.h>
-#include "traffic-light.h"
+#include <opgaver/trafiklys/traffic-light.h>
 
 void setup() {
   static TrafficLight trafficlight;
