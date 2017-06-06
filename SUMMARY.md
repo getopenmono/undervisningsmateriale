@@ -14,3 +14,11 @@
 ## Opgaver
 
 * [Trafiklys](trafiklys/README.md)
+  * [Grupper](trafiklys/README.md#del-1-grupper)
+  * [Planlægning](trafiklys/README.md#del-2-planlægning)
+  * [Observationer](trafiklys/README.md#del-3-observationer)
+  * [Model](trafiklys/README.md#del-4-model)
+  * [Opstilling](trafiklys/README.md#del-5-opstilling)
+  * [Programmering](trafiklys/README.md#del-6-programmering)
+  * [Forsøg](trafiklys/README.md#del-7-forsøg)
+  * [Verificering](trafiklys/README.md#del-8-verificering)

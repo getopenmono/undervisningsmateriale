@@ -1,5 +1,6 @@
 {
   "title": "Mono i undervisningen",
-  "author": "Monolit",
-  "language": "da"
+  "author": "Monolit ApS",
+  "language": "da",
+  "pdf.paperSize": "a4"
 }
